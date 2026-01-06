@@ -9,30 +9,18 @@ This repository demonstrates Azure infrastructure automation using Terraform wit
 
 ## Structure
 
-azure-technical-ops-terraform/
-├── README.md
-|__ .gitignore
-├── environments/
-│   ├── dev/
-│   │   ├── main.tf
-│   │   ├── providers.tf
-│   │   ├── terraform.tfvars
-│   │   └── outputs.tf
-│   └── test/
-│       ├── main.tf
-│       ├── providers.tf
-│       ├── terraform.tfvars
-│       └── outputs.tf
-├── modules/
-│   ├── resource-group/
-│   │   └── main.tf
-│   ├── network/
-│   │   └── main.tf
-│   └── storage/
-│       └── main.tf
-└── .github/
-    └── workflows/
-        └── terraform-ci.yml
+azure-technical-ops-terraform/ <br/>
+README.md <br/>
+.gitignore <br/>
+environments/
+&nbsp;&nbsp;&nbsp;&nbsp; dev/ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; test/ <br/>
+modules/ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; resource-group/ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; network/ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; storage/ <br/>
+.github/ workflows/ terraform-ci.yml <br/>
+
 
 ## Quick Start
 
